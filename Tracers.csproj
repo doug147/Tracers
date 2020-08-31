@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>CryoFall.Tracers</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\CryoFall\Core\Core.cpk\AtomicTorch.CBND.CoreMod.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AtomicTorch.CBND.GameApi.WPF">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\CryoFall\Core\CryoFall.Mod.Sdk\LibsGameApi\AtomicTorch.CBND.GameApi.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="AtomicTorch.CBND.GameApi.WPF.Stubs">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\CryoFall\Core\CryoFall.Mod.Sdk\LibsGameApi\AtomicTorch.CBND.GameApi.WPF.Stubs.dll</HintPath>
+    </Reference>
+    <Reference Include="AtomicTorch.GameEngine.Common.Primitives">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\CryoFall\Core\CryoFall.Mod.Sdk\LibsGameApi\AtomicTorch.GameEngine.Common.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

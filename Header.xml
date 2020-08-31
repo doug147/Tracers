@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<root>
+  <game>CryoFall</game>
+  <id>tracers</id>
+  <title>Tracers</title>
+  <author>Doug</author>
+  <description>Tracers</description>
+  <version>1.0.0</version>
+  <updated>31.08.2020</updated>
+  <modtype>3</modtype>
+</root>
